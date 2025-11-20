@@ -1,0 +1,71 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Encabezado === */
+header {
+    background-color: #3b3b3b;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* === Navegación === */
+nav {
+    background-color: #d8b26e;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* === Contenido principal === */
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: #444;
+    text-align: justify;
+}
+
+/* === Imagen === */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+/* === Pie de página === */
+footer {
+    background-color: #3b3b3b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
